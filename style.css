@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 ul {
     background-color: #333;
     color: #ffffff;
@@ -13,9 +14,11 @@ ul {
     padding: 0;
     overflow: hidden;
 }
+
 li {
     float: left;
 }
+
 li a {
     display: block;
     text-align: center;
@@ -23,30 +26,37 @@ li a {
     text-decoration: none;
     color: #FFF;
 }
-li:hover{
+
+li:hover {
     background-color: #111;
 }
+
 #showcase {
-    background: linear-gradient(45deg, rgb(116, 155, 93)0%,rgb(65, 175, 80)50%,rgb(2, 56, 13)100%);
+    background: linear-gradient(45deg, rgb(116, 155, 93)0%, rgb(65, 175, 80)50%, rgb(2, 56, 13)100%);
     width: 100%;
     margin: 0;
     padding: 15px 0;
 }
+
 .perfil {
     background: #111;
     width: 100%;
     padding: 15px 1px;
 }
+
 .perfil h1 {
     background: -webkit-linear-gradient(rgb(20, 133, 77), rgb(9, 104, 75));
     font-size: 30px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .flex_items {
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
+
 .body {
     text-align: center;
     padding: 14px 2px;
